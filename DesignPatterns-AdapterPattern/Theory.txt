@@ -1,0 +1,3 @@
+Idea is that if we have 2 interface and one class implements one interface
+while u want to shift to other then We can use an adapter class to
+match one interface to another

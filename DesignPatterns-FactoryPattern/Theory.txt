@@ -1,0 +1,12 @@
+When you want objects that implement same interface
+or having same parent
+Creating object complex
+e.g.: lot of constructor parameters
+Possible to simply choice of objects
+-----------------------------------------------
+A Factory Pattern or Factory Method Pattern says 
+that just define an interface or abstract class for 
+creating an object but let the subclasses decide 
+which class to instantiate.
+-----------------------------------------------
+Makes it easier to build these objects... 

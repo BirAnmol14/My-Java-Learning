@@ -1,0 +1,12 @@
+Used in GUI applications.
+Based on event based programs.
+Example some code runs and does something at an unpredictable point of time.
+Like when button press or timer ends.
+Their listener code should be run in background
+And respond to the changes
+The change occurs in *SUBJECT* -> which is handled by *Listener/Observer* .
+The Observer should be running in background and the subject should not know.
+Like OnClickListener in Android.
+In java the Listener is an interface like ABCListener which has a method called run().
+Now you have to implement this Listener and provide code for this method.
+The subject maintains a list of these Observers and passes data to fire an event.

@@ -1,0 +1,3 @@
+A design pattern where you allow only one object of a class.
+Using global variables to access that object from everywhere.
+Used for data base objects that you want to use at multiple places
